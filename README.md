@@ -5,7 +5,7 @@
   <p>
     <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6" alt="platform" />
     <img src="https://img.shields.io/badge/runtime-.NET%20Framework%204.8-512BD4" alt="runtime" />
-    <img src="https://img.shields.io/badge/size-390%20KB-2ea44f" alt="size" />
+    <img src="https://img.shields.io/badge/size-394%20KB-2ea44f" alt="size" />
     <img src="https://img.shields.io/badge/license-MIT-green" alt="license" />
   </p>
 </div>
@@ -18,9 +18,9 @@
 > Targeted adaptation for the DeepSeek Harness plugin ecosystem is coming soon. Fellow Tofus are welcome to star and contribute!
 
 
-diode is a 390 KB Windows tray app that does one thing. Left-click the icon and every monitor plugged into the machine drops to minimum brightness. Left-click again and they all snap back to maximum. No sliders, no per-monitor panels, nothing adaptive.
+diode is a ~390 KB Windows tray app that does one thing. Left-click the icon and every monitor plugged into the machine drops to minimum brightness. Left-click again and they all snap back to maximum. No sliders, no per-monitor panels, nothing adaptive.
 
-diode 是一个 390 KB 的单一功能 Windows 托盘小程序：左键点一下图标，本机所有显示器一起压到最暗；再点一下，全部弹回最亮。没有滑块、逐屏面板，也没有任何自适应的东西。
+diode 是一个 ~390 KB 的单一功能 Windows 托盘小程序：左键点一下图标，本机所有显示器一起压到最暗；再点一下，全部弹回最亮。没有滑块、逐屏面板，也没有任何自适应的东西。
 
 ## Why "diode"
 
