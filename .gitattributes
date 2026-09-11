@@ -1,0 +1,13 @@
+# Normalize line endings so the C# source and scripts behave the same on every machine.
+* text=auto eol=lf
+
+# Windows-only batch script must keep CRLF or cmd.exe chokes on it.
+*.bat text eol=crlf
+
+# The exe and icon are binary; never touch them.
+*.exe binary
+*.ico binary
+*.png binary
+
+# The Chinese quick-start is GBK-friendly plain text; keep its bytes as authored.
+使用说明.txt -text
