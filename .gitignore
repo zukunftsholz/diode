@@ -1,0 +1,24 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+build48/bin/
+build48/obj/
+
+# Release artifacts (uploaded to GitHub Releases, not committed)
+dist/
+
+# Built binary at the repo root — rebuild it with build.bat, or grab it from Releases
+/diode.exe
+
+# Runtime config written by the app itself on first launch
+config.ini
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Editor / OS
+.vs/
+.vscode/
+*.user
+*.suo

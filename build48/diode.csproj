@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>diode</AssemblyName>
+    <RootNamespace>diode</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\Release\</OutputPath>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>diode.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <!-- 版本号的唯一来源在 src/diode.cs 的 AppInfo.Version 与 assembly 特性里，
+         这里只用于文件元数据，两者需保持一致。GenerateAssemblyInfo=false，故由源码声明。 -->
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <InformationalVersion>0.0.1</InformationalVersion>
+    <Product>diode</Product>
+    <Description>One-click dim/brighten every monitor — simple as a diode</Description>
+    <Copyright>Copyright (c) 2026 diode contributors</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 源码在仓库的 src/ 下，不在工程目录内，需显式引入 -->
+    <Compile Include="..\src\diode.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+
+</Project>
